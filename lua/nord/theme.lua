@@ -307,9 +307,9 @@ theme.loadLSP = function()
 		LspDiagnosticsFloatingHint = { fg = nord.nord9_gui }, -- used for "Hint" diagnostic messages in the diagnostics float
 		LspDiagnosticsVirtualTextHint = { fg = nord.nord9_gui }, -- Virtual text "Hint"
 		LspDiagnosticsUnderlineHint = { style = "undercurl", sp = nord.nord10_gui }, -- used to underline "Hint" diagnostics.
-		LspReferenceText = { fg = nord.nord4_gui, bg = nord.nord1_gui }, -- used for highlighting "text" references
-		LspReferenceRead = { fg = nord.nord4_gui, bg = nord.nord1_gui }, -- used for highlighting "read" references
-		LspReferenceWrite = { fg = nord.nord4_gui, bg = nord.nord1_gui }, -- used for highlighting "write" references
+		LspReferenceText = { bg = nord.nord1_gui }, -- used for highlighting "text" references
+		LspReferenceRead = { bg = nord.nord1_gui }, -- used for highlighting "read" references
+		LspReferenceWrite = { bg = nord.nord1_gui }, -- used for highlighting "write" references
 
 		DiagnosticError = { link = "LspDiagnosticsDefaultError" },
 		DiagnosticWarn = { link = "LspDiagnosticsDefaultWarning" },
