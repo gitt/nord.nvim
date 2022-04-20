@@ -199,11 +199,11 @@ theme.loadTreeSitter = function()
 		TSNumber = { fg = nord.nord15_gui }, -- For all number
 
 		TSAttribute = { fg = nord.nord15_gui }, -- (unstable) TODO: docs
-		TSVariable = { fg = nord.nord4_gui, style = "bold" }, -- Any variable name that does not have another highlight.
-		TSVariableBuiltin = { fg = nord.nord4_gui, style = "bold" },
-		TSBoolean = { fg = nord.nord9_gui, style = "bold" }, -- For booleans.
-		TSConstBuiltin = { fg = nord.nord7_gui, style = "bold" }, -- For constant that are built in the language: `nil` in Lua.
-		TSConstMacro = { fg = nord.nord7_gui, style = "bold" }, -- For constants that are defined by macros: `NULL` in C.
+		TSVariable = { fg = nord.nord4_gui }, -- Any variable name that does not have another highlight.
+		TSVariableBuiltin = { fg = nord.nord4_gui },
+		TSBoolean = { fg = nord.nord9_gui }, -- For booleans.
+		TSConstBuiltin = { fg = nord.nord7_gui }, -- For constant that are built in the language: `nil` in Lua.
+		TSConstMacro = { fg = nord.nord7_gui }, -- For constants that are defined by macros: `NULL` in C.
 		TSError = { fg = nord.nord11_gui }, -- For syntax/parser errors.
 		TSException = { fg = nord.nord15_gui }, -- For exception related keywords.
 		TSFuncMacro = { fg = nord.nord7_gui }, -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
@@ -224,7 +224,7 @@ theme.loadTreeSitter = function()
 		TSTextReference = { fg = nord.nord15_gui }, -- FIXME
 		TSEmphasis = { fg = nord.nord10_gui }, -- For text to be represented with emphasis.
 		TSUnderline = { fg = nord.nord4_gui, bg = nord.none, style = "underline" }, -- For text to be represented with an underline.
-		TSTitle = { fg = nord.nord10_gui, bg = nord.none, style = "bold" }, -- Text that is part of a title.
+		TSTitle = { fg = nord.nord10_gui, bg = nord.none }, -- Text that is part of a title.
 		TSLiteral = { fg = nord.nord4_gui }, -- Literal text.
 		TSURI = { fg = nord.nord14_gui }, -- Any URI like a link or email.
 		TSAnnotation = { fg = nord.nord11_gui }, -- For C++/Dart attributes, annotations that can be attached to the code to denote some kind of meta information.
