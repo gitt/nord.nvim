@@ -53,7 +53,7 @@ theme.loadSyntax = function()
 	if vim.g.nord_italic == false then
 		syntax.Comment = { fg = nord.nord3_gui_bright } -- normal comments
 		syntax.Conditional = { fg = nord.nord9_gui } -- normal if, then, else, endif, switch, etc.
-		syntax.Function = { fg = nord.nord3_gui_bright } -- normal function names
+		syntax.Function = { fg = nord.nord16_gui } -- normal function names
 		syntax.Identifier = { fg = nord.nord9_gui } -- any variable name
 		syntax.Keyword = { fg = nord.nord9_gui } -- normal for, do, while, etc.
 		syntax.Repeat = { fg = nord.nord9_gui } -- normal any other keyword
@@ -236,9 +236,9 @@ theme.loadTreeSitter = function()
 		-- Conditionals
 		treesitter.TSConditional = { fg = nord.nord9_gui } -- For keywords related to conditionnals.
 		-- Function names
-		treesitter.TSFunction = { fg = nord.nord3_gui_bright } -- For fuction (calls and definitions).
-		treesitter.TSMethod = { fg = nord.nord7_gui } -- For method calls and definitions.
-		treesitter.TSFuncBuiltin = { fg = nord.nord8_gui }
+		treesitter.TSFunction = { fg = nord.nord16_gui } -- For fuction (calls and definitions).
+		treesitter.TSMethod = { fg = nord.nord16_gui } -- For method calls and definitions.
+		treesitter.TSFuncBuiltin = { fg = nord.nord16_gui }
 		-- Namespaces and property accessors
 		treesitter.TSNamespace = { fg = nord.nord4_gui } -- For identifiers referring to modules and namespaces.
 		treesitter.TSField = { fg = nord.nord4_gui } -- For fields in literals
@@ -260,9 +260,9 @@ theme.loadTreeSitter = function()
 		-- Conditionals
 		treesitter.TSConditional = { fg = nord.nord9_gui, style = "italic" } -- For keywords related to conditionnals.
 		-- Function names
-		treesitter.TSFunction = { fg = nord.nord8_gui, style = "italic" } -- For fuction (calls and definitions).
-		treesitter.TSMethod = { fg = nord.nord7_gui, style = "italic" } -- For method calls and definitions.
-		treesitter.TSFuncBuiltin = { fg = nord.nord8_gui, style = "italic" }
+		treesitter.TSFunction = { fg = nord.nord16_gui, style = "italic" } -- For fuction (calls and definitions).
+		treesitter.TSMethod = { fg = nord.nord16_gui, style = "italic" } -- For method calls and definitions.
+		treesitter.TSFuncBuiltin = { fg = nord.nord16_gui, style = "italic" }
 		-- Namespaces and property accessors
 		treesitter.TSNamespace = { fg = nord.nord4_gui, style = "italic" } -- For identifiers referring to modules and namespaces.
 		treesitter.TSField = { fg = nord.nord4_gui, style = "italic" } -- For fields.
