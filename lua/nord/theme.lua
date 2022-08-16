@@ -53,7 +53,7 @@ theme.loadSyntax = function()
 	if vim.g.nord_italic == false then
 		syntax.Comment = { fg = nord.nord3_gui_bright } -- normal comments
 		syntax.Conditional = { fg = nord.nord9_gui } -- normal if, then, else, endif, switch, etc.
-		syntax.Function = { fg = nord.nord8_gui } -- normal function names
+		syntax.Function = { fg = nord.nord3_gui_bright } -- normal function names
 		syntax.Identifier = { fg = nord.nord9_gui } -- any variable name
 		syntax.Keyword = { fg = nord.nord9_gui } -- normal for, do, while, etc.
 		syntax.Repeat = { fg = nord.nord9_gui } -- normal any other keyword
