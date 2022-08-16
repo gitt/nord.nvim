@@ -61,7 +61,7 @@ theme.loadSyntax = function()
 	else
 		syntax.Comment = { fg = nord.nord3_gui_bright, bg = nord.none, style = "italic" } -- italic comments
 		syntax.Conditional = { fg = nord.nord9_gui, bg = nord.none, style = "italic" } -- italic if, then, else, endif, switch, etc.
-		syntax.Function = { fg = nord.nord8_gui, bg = nord.none, style = "italic" } -- italic funtion names
+		syntax.Function = { fg = nord.nord3_gui_bright, bg = nord.none, style = "italic" } -- italic funtion names
 		syntax.Identifier = { fg = nord.nord9_gui, bg = nord.none, style = "italic" } -- any variable name
 		syntax.Keyword = { fg = nord.nord9_gui, bg = nord.none, style = "italic" } -- italic for, do, while, etc.
 		syntax.Repeat = { fg = nord.nord9_gui, bg = nord.none, style = "italic" } -- italic any other keyword
@@ -236,7 +236,7 @@ theme.loadTreeSitter = function()
 		-- Conditionals
 		treesitter.TSConditional = { fg = nord.nord9_gui } -- For keywords related to conditionnals.
 		-- Function names
-		treesitter.TSFunction = { fg = nord.nord8_gui } -- For fuction (calls and definitions).
+		treesitter.TSFunction = { fg = nord.nord3_gui_bright } -- For fuction (calls and definitions).
 		treesitter.TSMethod = { fg = nord.nord7_gui } -- For method calls and definitions.
 		treesitter.TSFuncBuiltin = { fg = nord.nord8_gui }
 		-- Namespaces and property accessors
