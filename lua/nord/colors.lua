@@ -18,6 +18,7 @@ local nord = (vim.o.background == "dark")
 			nord13_gui = "#EBCB8B", -- nord13 in palette
 			nord14_gui = "#A3BE8C", -- nord14 in palette
 			nord15_gui = "#B48EAD", -- nord15 in palette
+	  		nord16_gui = "#AEC7DF", -- nord16 in palette
 			none = "NONE",
 		}
 	or {
@@ -39,6 +40,7 @@ local nord = (vim.o.background == "dark")
 		nord13_gui = "#EBCB8B", -- nord13 in palette
 		nord14_gui = "#A3BE8C", -- nord14 in palette
 		nord15_gui = "#B48EAD", -- nord15 in palette
+		nord16_gui = "#AEC7DF", -- nord16 in palette
 		none = "NONE",
 	}
 
