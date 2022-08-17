@@ -399,6 +399,7 @@ theme.loadPlugins = function()
 		NvimTreeFolderName = { fg = nord.nord16_gui },
 		NvimTreeEmptyFolderName = { fg = nord.nord3_gui_bright },
 		NvimTreeFolderIcon = { fg = nord.nord16_gui },
+		NvimTreeFileIcon = { fg = nord.nord4_gui },
 		NvimTreeOpenedFolderName = { fg = nord.nord16_gui, style = "bold" },
 		NvimTreeOpenedFile = { fg = nord.nord4_gui, style = "bold" },
 		NvimTreeIndentMarker = { fg = nord.nord1_gui },
