@@ -132,7 +132,7 @@ theme.loadEditor = function()
 		VisualMode = { fg = nord.nord9_gui, bg = nord.none, style = "reverse" },
 		CommandMode = { fg = nord.nord4_gui, bg = nord.none, style = "reverse" },
 		Warnings = { fg = nord.nord15_gui },
-		MsgArea = {bg = nord.nord3_gui },
+		MsgArea = {bg = nord.nord2_gui },
 
 		healthError = { fg = nord.nord11_gui },
 		healthSuccess = { fg = nord.nord14_gui },
